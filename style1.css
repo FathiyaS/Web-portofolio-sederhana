@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.atas{
+    background-color: #827397;
+    width: 100%;
+    height: 100px;
+    color: white;
+    position: sticky;
+    display: flex;
+}
+
+.atas .judul{
+    position: absolute;
+    margin-left: 450px;
+    font-family:Papyrus;
+    color: #363062;
+}
+
+.menu{
+    padding-top: 30px;
+}
+
+.uwuw{
+    margin-left: 350px;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.menu ul li {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    float: none;
+    width: 100px;
+    height: 15px;
+    border-radius: 20px ;
+    background: gold;
+    padding: 5px 5px 5px 5px;
+    vertical-align: middle;
+}
+
+.menu ul li:hover{
+    background-color: #6096B4;
+    background-size:cover ;
+    border: 1px solid white;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+.biodata{
+    height: 700px;
+    background-image: linear-gradient(to right, #363062, #827397);
+    font-family: 'papyrus';
+}
+.biodata table{
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 100px;
+    float: left;
+}
+
+.biodata img{
+    margin-top: 0px;
+    margin-right: 30px;
+    float: right;
+    width: 700px;
+    height: 700px;
+}
+
+.nya {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-color: #827397;
+    background-size: cover;
+}
+
+.nya h1{
+    text-align: center;
+    font-family: papyrus;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.favo-fav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.content-fav{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.4s;
+    background: white;
+    overflow: hidden;
+}
+
+.content-fav:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.content-fav h6{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+
+.content-fav h3{
+    color: coral;
+}
+
+.quotes{
+    margin: 0px auto;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-color: #827397;
+    background-size: cover;
+}
+
+.quotes h1{
+    text-align: center;
+    font-family: papyrus;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.favo-Q{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+
+}
+
+.content-Q{
+    width: 400px;
+    height: 120px;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.4s;
+    background: white;
+    overflow: hidden;
+}
+
+.content-Q:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+
+.content-Q h6{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+
+.content-Q h3{
+    color: coral;
+}
+
+.favo .content-Q .p{
+    font-size: 10px;
+}
+
